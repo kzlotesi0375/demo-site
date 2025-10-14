@@ -1,0 +1,53 @@
+<!doctype html>
+ <html lang="tr">
+ <head>
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <title>Demo Site – Grup {GRUP_KODU}</title>
+   <!-- Consent Mode v2 (default) -->
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('consent', 'default', {
+       'ad_user_data': 'denied',
+       'ad_personalization': 'denied',
+       'ad_storage': 'denied',
+       'analytics_storage': 'denied'
+     });
+   </script>
+   <!-- GTM HEAD -->
+   <!-- GTM kodunu yayın öncesi buraya ekleyeceksin (GTM-XXXXXX) -->
+   <!-- /GTM HEAD -->
+   <link rel="stylesheet" href="assets/css/style.css"/>
+ </head>
+ <body>
+   <!-- GTM BODY (noscript) buraya gelecek -->
+
+   <header>
+     <h1>Google Pazarlama Demo – Grup {GRUP_KODU}</h1>
+     <p>Bu sayfa ölçüm ve reklam etiketlerini test etmek için hazırlanmıştır.</p>
+   </header>
+
+   <main>
+     <section>
+       <h2>Form Demo</h2>
+       <form id="leadForm" action="thanks.html" method="get">
+         <input type="text" name="name" placeholder="Adınız" required>
+         <input type="email" name="email" placeholder="E-posta" required>
+         <button type="submit">Kaydol</button>
+       </form>
+     </section>
+
+     <section>
+       <h2>Event Demo</h2>
+       <button id="btnAddToCart">Sepete Ekle (Demo)</button>
+       <a href="product.html" id="btnViewItem">Ürünü Gör</a>
+     </section>
+   </main>
+
+   <script src="assets/js/dataLayer.js"></script>
+   <script src="assets/js/gtm-consent.js"></script>
+ </body>
+ </html>
+
+
