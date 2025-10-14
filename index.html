@@ -1,73 +1,101 @@
-<!doctype html>
- <html lang="tr">
- <head>
-   <meta charset="utf-8"/>
-   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-   <title>Demo Site – Grup {GRUP_KODU}</title>
-   <!-- Consent Mode v2 (default) -->
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('consent', 'default', {
-       'ad_user_data': 'denied',
-       'ad_personalization': 'denied',
-       'ad_storage': 'denied',
-       'analytics_storage': 'denied'
-     });
-   </script>
-   <!-- GTM HEAD -->
-   <!-- GTM kodunu yayın öncesi buraya ekleyeceksin (GTM-XXXXXX) -->
-   <!-- /GTM HEAD -->
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-15N3M1SQ6T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finch – Discover exceptional talent</title>
+  <meta name="description" content="Harness the power of Finch to create a more dynamic and responsive HR department." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#1a0740; --text:#eae6ff; --muted:#b7aee5;
+      --brand:#a855f7; --brand2:#7c3aed; --dash:#3a2675;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, sans-serif;
+      background:radial-gradient(circle at 20% top, #2a0b6a 0%, var(--bg) 70%);
+      color:var(--text);
+    }
+    .announce{
+      text-align:center; padding:.5rem 1rem;
+      background:#2b116a; color:#cfc7ff; font-size:.9rem;
+    }
+    .badge{
+      background:#a7b4ff; color:#1b1340;
+      padding:.2rem .5rem; border-radius:.5rem; margin-right:.4rem;
+      font-weight:700;
+    }
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:1rem 1.5rem; border-bottom:1px dashed var(--dash);
+      background:rgba(26,7,64,0.9); backdrop-filter:blur(8px);
+    }
+    .logo{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.2rem;}
+    .logo span{background:var(--brand);color:#1a0740;padding:.4rem .6rem;border-radius:8px;}
+    nav ul{display:flex;list-style:none;gap:1.5rem;margin:0;padding:0;}
+    nav a{text-decoration:none;color:var(--muted);font-weight:600;}
+    nav a:hover{color:#fff;}
+    .btn{
+      background:#c7d2fe;color:#1a0740;
+      padding:.6rem 1rem;border:none;border-radius:10px;
+      font-weight:700;cursor:pointer;
+    }
+    main{
+      max-width:1100px;margin:0 auto;padding:4rem 1.5rem;text-align:left;
+    }
+    .trusted{display:flex;align-items:center;gap:.6rem;color:#bcb5ff;margin-bottom:1rem;}
+    h1{
+      font-size:clamp(2.4rem,6vw,5rem);font-weight:900;line-height:1.05;margin:1rem 0;
+    }
+    .highlight{
+      position:relative;display:inline-block;
+    }
+    .highlight::before{
+      content:"";position:absolute;left:-.2rem;right:-.2rem;bottom:.15em;height:.4em;
+      background:linear-gradient(90deg,var(--brand),var(--brand2));
+      border-radius:.2em;z-index:-1;
+      transform:skewX(-10deg);
+    }
+    p{max-width:700px;color:#d0caff;font-size:1.2rem;line-height:1.6;}
+    .cta{margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;}
+    .cta a{text-decoration:none;color:#fff;}
+    .btn-alt{background:#2b1762;border:1px solid #4a2c95;}
+  </style>
+</head>
+<body>
 
-  gtag('config', 'G-15N3M1SQ6T');
-</script>
+  <div class="announce"><span class="badge">New</span>New merch just dropped! <a href="#" style="color:#d4cfff;text-decoration:underline;">Learn more</a></div>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M46KXV4B');</script>
-<!-- End Google Tag Manager -->
+  <header>
+    <div class="logo"><span>F</span>finch</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Showcase</a></li>
+        <li><a href="#">Multilayout</a></li>
+        <li><a href="#">Other pages</a></li>
+      </ul>
+    </nav>
+    <button class="btn">Purchase template</button>
+  </header>
 
-   <link rel="stylesheet" href="assets/css/style.css"/>
- </head>
- <body>
-   <!-- GTM BODY (noscript) buraya gelecek -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M46KXV4B"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
- 
-   <header>
-     <h1>Google Pazarlama Demo – Grup {GRUP_KODU}</h1>
-     <p>Bu sayfa ölçüm ve reklam etiketlerini test etmek için hazırlanmıştır.</p>
-   </header>
+  <main>
+    <div class="trusted">
+      <span>👦👩✨</span>
+      Trusted by over <strong>1500+ users</strong> – Many more
+    </div>
+    <h1>Discover exceptional<br>talent using <span class="highlight">Finch.</span></h1>
+    <p>Harness the power of Finch to create a more dynamic and responsive HR department.</p>
 
-   <main>
-     <section>
-       <h2>Form Demo</h2>
-       <form id="leadForm" action="thanks.html" method="get">
-         <input type="text" name="name" placeholder="Adınız" required>
-         <input type="email" name="email" placeholder="E-posta" required>
-         <button type="submit">Kaydol</button>
-       </form>
-     </section>
+    <div class="cta">
+      <a href="#" class="btn">Get on Webflow</a>
+      <a href="#" class="btn btn-alt">Other templates</a>
+    </div>
+  </main>
 
-     <section>
-       <h2>Event Demo</h2>
-       <button id="btnAddToCart">Sepete Ekle (Demo)</button>
-       <a href="product.html" id="btnViewItem">Ürünü Gör</a>
-     </section>
-   </main>
-
-   <script src="assets/js/dataLayer.js"></script>
-   <script src="assets/js/gtm-consent.js"></script>
- </body>
- </html>
+</body>
+</html>
