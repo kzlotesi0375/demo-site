@@ -2,54 +2,59 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ürünlerimiz</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Eğitim Demo - Hizmetler</title>
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+  <!-- Google Tag Manager kodu -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[]; w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'}); 
+      var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer' ? '&l='+l : ''; 
+      j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
+      f.parentNode.insertBefore(j,f); 
+    })(window, document, 'script', 'dataLayer', 'GTM-XXXX');
+  </script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">Logo</div>
-    <nav class="site-nav">
-      <a href="index.html">Ana Sayfa</a>
-      <a class="active" href="hizmetler.html">Ürünlerimiz</a>
-      <a href="#">Hakkımızda</a>
-      <a href="#">Blog</a>
-      <a href="form.html">İletişim</a>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+            height="0" width="0" style="display:none; visibility:hidden"></iframe>
+  </noscript>
+  
+  <header>
+    <nav>
+      <div class="logo">Eğitim Demo</div>
+      <ul>
+        <li><a href="hizmetler.html">Hizmetler</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
     </nav>
   </header>
-
-  <main class="page">
-    <h2>Ürünlerimiz</h2>
-
-    <section class="cards">
-      <article class="card">
-        <h3>Deal Execution</h3>
-        <p class="kicker">Google</p>
-        <p>Google Ads ve Analytics ile uçtan uca performans.</p>
-      </article>
-
-      <article class="card">
-        <h3>Process Visualization</h3>
-        <p class="kicker">Meta</p>
-        <p>Facebook &amp; Instagram kampanyalarında ileri seviye optimizasyon.</p>
-      </article>
-
-      <article class="card">
-        <h3>Workflow Efficiency</h3>
-        <p class="kicker">SEO</p>
-        <p>Organik görünürlüğü artıran teknik ve içerik odaklı SEO.</p>
-      </article>
-
-      <article class="card">
-        <h3>Artificial Intelligence</h3>
-        <p class="kicker">SEM</p>
-        <p>Arama ağı ve görüntülü reklamlarla verimli büyüme.</p>
-      </article>
-    </section>
+  
+  <main>
+    <h2>Hizmetlerimiz</h2>
+    <div class="services-container">
+      <div class="service-card" data-service="Google Ads">
+        <h3>Google Ads</h3>
+        <p>Hedef kitlenize doğru zamanda, doğru yerde ulaşmak için çevrimiçi reklam platformu.</p>
+      </div>
+      <div class="service-card" data-service="Google Tag Manager">
+        <h3>Google Tag Manager</h3>
+        <p>Web sitenizin etiket yönetimini kolaylaştırarak tüm izleme kodlarınızı tek bir yerden kontrol edin.</p>
+      </div>
+      <div class="service-card" data-service="Google Analytics 4">
+        <h3>Google Analytics 4</h3>
+        <p>Kullanıcı davranışlarını analiz edin ve gelişmiş raporlarla içgörüler elde edin.</p>
+      </div>
+      <div class="service-card" data-service="Google Search Console">
+        <h3>Google Search Console</h3>
+        <p>Web sitenizin arama motoru performansını izleyin ve görünürlüğünü artırın.</p>
+      </div>
+    </div>
   </main>
-
-  <footer class="site-footer">
-    <small>© Grafolig • Tüm hakları saklıdır.</small>
-  </footer>
+  
+  <script src="script.js"></script>
 </body>
 </html>
