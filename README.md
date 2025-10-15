@@ -1,19 +1,17 @@
-# Finch Demo Site
+# Dijital Pazarlama Eğitimi – Çok Sayfalı Statik Site
 
-This is a static HTML replica of the **Finch** hero section.
+Bu repo; **index.html**, **form.html**, **hizmetler.html** ve **styles.css** dosyalarından oluşan,
+GitHub Pages’te yayınlanmaya hazır, sade ve hızlı bir web sitesi içerir.
 
-## 🧱 How to Run
-1. Go to your GitHub repo (e.g. `kzlotesi0375/demo-site`)
-2. Add `index.html` at the root.
-3. Commit and push.
-4. Enable **GitHub Pages**:
-   - Go to **Settings → Pages**
-   - Source: select `main` branch → `/root`
-5. Visit  
-   `https://kzlotesi0375.github.io/demo-site/`
+## 🔗 Canlı Yayın (GitHub Pages)
+1. **Settings → Pages** menüsüne gir.
+2. **Source:** `main` / **Branch:** `/(root)` seç ve **Save**.
+3. Site adresin şu formatta olur:  
+   `https://KULLANICI_ADIN.github.io/REPO_ADIN/`
 
-## ✨ Features
-- Responsive design  
-- Highlighted brand text effect  
-- Hero CTA buttons  
-- Pure HTML + CSS, no external frameworks
+> Örnek: `https://kzlotesi0375.github.io/demo-site/`
+
+---
+
+## 📁 Proje Yapısı
+
