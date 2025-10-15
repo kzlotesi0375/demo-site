@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bilgi Talep Formu</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Logo</div>
+    <nav class="site-nav">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hizmetler.html">Ürünlerimiz</a>
+      <a href="#">Hakkımızda</a>
+      <a href="#">Blog</a>
+      <a class="active" href="form.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h2>Get a demo / Bilgi Talep</h2>
+    <p class="muted">Bize zaman ayırdığınız için teşekkürler. En kısa sürede sizinle iletişime geçeceğiz.</p>
+
+    <form class="form-card" onsubmit="event.preventDefault(); alert('Teşekkürler! Talebiniz alındı.');">
+      <label for="name">Ad Soyad</label>
+      <input id="name" name="name" type="text" placeholder="Adınız Soyadınız" required />
+
+      <label for="work-email">İş E-postası</label>
+      <input id="work-email" name="email" type="email" placeholder="ornek@firma.com" required />
+
+      <label for="phone">Telefon Numarası</label>
+      <input id="phone" name="phone" type="tel" placeholder="+90 5xx xxx xx xx" required />
+
+      <button class="btn btn-primary" type="submit">Gönder</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <small>© Grafolig • Tüm hakları saklıdır.</small>
+  </footer>
+</body>
+</html>
